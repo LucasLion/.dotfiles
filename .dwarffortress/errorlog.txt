@@ -1,4 +1,0 @@
-path fail: tigerfish,4,191,166 -> 8,171,166: Id #12805:Path Goal Flee Terrain:Station Marauder Mill at 6,189,166
-path fail: longnose gar,11,142,126 -> 11,143,127: Id #2053:Path Goal Marauder Mill:Station Marauder Mill at 11,143,127
-path fail: rodent woman,179,206,106 -> 175,207,106: Id #2378:Path Goal Conflict Defense:Station None at 162,200,105
-path fail: rodent woman,181,208,105 -> 179,206,106: Id #2378:Path Goal Conflict Defense:Station None at 180,207,106
