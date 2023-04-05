@@ -20,13 +20,16 @@ alias dwarf="alacritty --config-file $HOME/.config/alacritty/dwarffortress.yml -
 HISTFILE=~/.config/zsh/histfile
 HISTSIZE=10000
 SAVEHIST=10000
-bindkey -v
+HIST_IGNORE_DUPS=true
+HIST_IGNORE_SPACE=true
 bindkey '^[[A' history-beginning-search-backward
+
+setopt EXTENDED_HISTORY
+bindkey -v
 export KEYTIMEOUT=1
 zstyle :compinstall filename '/home/noil/.zshrc'
 autoload -Uz compinit
 compinit
-
 
 autoload -U colors && colors
 
@@ -45,6 +48,10 @@ zstyle ':completion:*' menu select
 zmodload zsh/complist
 compinit
 _comp_options+=(globdots)		# Include hidden files.
+
+function history() {
+	fc -l 1
+}
 
 # autostartx
 if [[ "$(tty)" = "/dev/tty1" ]]; then
