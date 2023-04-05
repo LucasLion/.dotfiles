@@ -1,0 +1,9 @@
+set editor = "vim"
+source color.muttrc
+source /usr/local/share/mutt-wizard/mutt-wizard.muttrc
+macro index,pager i1 '<sync-mailbox><enter-command>source /home/noil/.config/mutt/accounts/lucaslion7@gmail.com.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to lucaslion7@gmail.com"
+macro index,pager i2 '<sync-mailbox><enter-command>source /home/noil/.config/mutt/accounts/bossno4@hotmail.com.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to bossno4@hotmail.com"
+
+set mailcap_path = "~/.config/mutt/mailcap" 
+macro index,pager i3 '<sync-mailbox><enter-command>source /home/noil/.config/mutt/accounts/lucaslion7@gmail.com.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to lucaslion7@gmail.com"
+macro index,pager i4 '<sync-mailbox><enter-command>source /home/noil/.config/mutt/accounts/bossno4@hotmail.com.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to bossno4@hotmail.com"

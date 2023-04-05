@@ -1,0 +1,104 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//calcurse//NONSGML v4.7.1//EN
+BEGIN:VEVENT
+DTSTART:20220316T150000
+DURATION:P0DT0H30M0S
+SUMMARY:Réparateur PC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220318T130000
+DURATION:P0DT1H0M0S
+SUMMARY:Appeler reparateur pc
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220326T200000
+DURATION:P0DT4H0M0S
+SUMMARY:Anniversaire coloc de Jojo l'homme des bois
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220402T200000
+DURATION:P0DT4H0M0S
+SUMMARY:Soirée manoir édition 2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220405T163000
+DURATION:P0DT4H0M0S
+SUMMARY:Avancer sur le site de Kriill
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220406T120000
+DURATION:P0DT4H0M0S
+SUMMARY:Avancer sur le site de Kriill
+DESCRIPTION: _  ______  ___ ___ _     _     \n| |/ /  _ \\|_ _|_ _| |   | |    \n| ' /| |_) || | | || |   | |    \n| . \\|  _ < | | | || |___| |___ \n|_|\\_\\_| \\_\\___|___|_____|_____|\n\n- finir de mettre en place la newsletter\n- mettre en place toute la théorie pour la page musique\n- potientiellement faire une maquette de la page musique\n- (Optionnel) résoudre le fondu transparent des icones sociaux
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220406T170000
+DURATION:P0DT1H0M0S
+SUMMARY:Projet de Tim
+DESCRIPTION:               _____ ___ __  __               \n _____ _____  |_   _|_ _|  \\/  |  _____ _____ \n|_____|_____|   | |  | || |\\/| | |_____|_____|\n|_____|_____|   | |  | || |  | | |_____|_____|\n                |_| |___|_|  |_|             \n\n\n- Faire remarcher la connexion\n- réussir à logger du son 
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220407T193000
+DURATION:P0DT3H30M0S
+SUMMARY:Raclette chez Laure
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220409T220000
+SUMMARY:Présentation maquette Kriill
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220410T140000
+DURATION:P4DT0H0M0S
+SUMMARY:Kershlag
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220414T140000
+SUMMARY:Envoyer SMS de rendez-vous à la brasserie
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220415T140000
+DURATION:P0DT1H30M0S
+SUMMARY:Aller chercher les futs et la tireuse
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220415T190000
+DURATION:P0DT5H0M0S
+SUMMARY:Roda Bobinette
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20220422T200000
+DURATION:P0DT4H0M0S
+SUMMARY:30 ans Alexis
+END:VEVENT
+BEGIN:VTODO
+PRIORITY:1
+SUMMARY:Faire mise à jour CAF
+END:VTODO
+BEGIN:VTODO
+PRIORITY:1
+SUMMARY:Présenter une maquette du site de Kriill
+DESCRIPTION:- Section musique terminée\n- Proposition acceptable de front-end\n- herbergé sur un serveur temporaire\n- personnaliser le front-end de l'administration\n- télécharger les fichiers de dépendances (police\, icones\, ...)\n
+END:VTODO
+BEGIN:VTODO
+PRIORITY:1
+SUMMARY:Transferer le dossier 42
+END:VTODO
+BEGIN:VTODO
+PRIORITY:3
+SUMMARY:Connceter micro à la carte son raspberry
+END:VTODO
+BEGIN:VTODO
+PRIORITY:4
+SUMMARY:Check modalités entreprise
+DESCRIPTION:- Regarder ou j'en suis et ce qu'il reste à faire\n- se renseigner sur comment se faire payer\n- communiquer à Klaar les infos pour se faire payer
+END:VTODO
+BEGIN:VTODO
+PRIORITY:5
+SUMMARY:Acheter produit pour clavier
+END:VTODO
+BEGIN:VTODO
+PRIORITY:9
+SUMMARY:Créer Mail de société
+END:VTODO
+END:VCALENDAR
