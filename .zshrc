@@ -1,5 +1,4 @@
 
-export token="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"
 alias winhome="/home/noil/"
 alias b='buku --suggest'
 alias emacs='emacsclient -c -a "emacs"'
