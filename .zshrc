@@ -1,6 +1,5 @@
-export token="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"
 
-#alias sgpt="python $HOME/scripts/shell_gpt/sgpt.py"
+export token="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"
 alias winhome="/home/noil/"
 alias b='buku --suggest'
 alias emacs='emacsclient -c -a "emacs"'
@@ -14,6 +13,7 @@ alias c='clear'
 alias pman="sudo pacman"
 alias ll="ls -la"
 alias l="ls -l"
+alias cat="bat"
 alias dwarf="alacritty --config-file $HOME/.config/alacritty/dwarffortress.yml -o working-directory=$(pwd) -e dwarffortress; exit"
 
 # zsh native config
