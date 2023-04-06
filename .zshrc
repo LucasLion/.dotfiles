@@ -40,7 +40,6 @@ zstyle ':vcs_info:git:*' formats '[➜%b]'
 setopt PROMPT_SUBST
 
 PROMPT='%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]${vcs_info_msg_0_}%{$reset_color%}$%b '
-#PROMPT='%n in ${vcs_info_msg_0_} '  
 
 # Basic auto/tab complete:
 autoload -U compinit
