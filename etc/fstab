@@ -1,0 +1,19 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/nvme0n1p2
+UUID=f5e5dfb9-cb3c-4b27-a026-8f884e76be01	/         	ext4      	rw,relatime,stripe=32	0 1
+
+# /dev/nvme0n1p1
+UUID=EC6E-8743      				/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/nvme0n1p3
+UUID=655f070e-aa53-49bf-92a2-5b48fc7be050	/home     	ext4      	rw,relatime,stripe=32	0 2
+
+# /dev/sda2
+UUID=1642206A422050B3				/mnt/tera     	ntfs      	defaults		0 2
+
+# /dev/sdd1
+UUID=4E21-0000					/mnt/ventoy    	exfat      	defaults		0 2
+
