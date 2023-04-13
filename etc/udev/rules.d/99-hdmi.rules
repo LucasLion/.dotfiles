@@ -1,0 +1,6 @@
+# Automated launch when hdmi plug
+# use sudo udevadm control --reload-rules after a change
+
+SUBSYSTEM=="drm",ACTION=="change",RUN+="$HOME/scripts/tv.sh"
+
+
