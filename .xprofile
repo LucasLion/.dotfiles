@@ -2,5 +2,6 @@
 
 /home/noil/scripts/boot.sh
 `xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1`
-xwallpaper --zoom /home/noil/Images/wallpapers/pixelart_house_inside_girl_book_dog.png
+xwallpaper --zoom /home/noil/Images/wallpapers/wallpaperbetter.com_2560x1440.jpg
 xrandr --output HDMI-A-4 --mode 2560x1440 --rate 144
+xset r rate 220 40
