@@ -54,4 +54,7 @@ return require('packer').startup(function(use)
   use('dense-analysis/ale')
   use('github/copilot.vim')
   use('kynazdani42/nvim-web-devicons')
+  use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+	  require("toggleterm").setup()
+	end}
 end)
