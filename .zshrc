@@ -6,7 +6,7 @@
 #    By: llion@student.42mulhouse.fr </var/spool/m  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/20 21:36:18 by llion@student     #+#    #+#              #
-#    Updated: 2023/07/21 12:04:27 by llion@student    ###   ########.fr        #
+#    Updated: 2024/03/13 19:17:07 by llion@student    ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,12 +30,6 @@ alias bare='/usr/bin/git --git-dir=$HOME/.bare.git --work-tree=$HOME'
 
 cx() { cd "$@" && ls -la; }
 
-eval $(thefuck --alias)
-
-# zsh native config
-HISTFILE=~/.config/zsh/histfile
-HISTSIZE=10000
-SAVEHIST=10000
 bindkey -v
 bindkey '^[[A' history-beginning-search-backward
 export KEYTIMEOUT=1
@@ -56,7 +50,7 @@ PROMPT='%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[mag
 #PROMPT='%n in ${vcs_info_msg_0_} '  
 
 # Basic auto/tab complete:
-autoload -U compinit
+#autoload -U compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
 compinit
