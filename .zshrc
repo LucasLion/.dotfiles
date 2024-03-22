@@ -3,22 +3,27 @@
 #                                                         :::      ::::::::    #
 #    .zshrc                                             :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: llion@student.42mulhouse.fr </var/spool/m  +#+  +:+       +#+         #
+#    By: llion <llion@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/07/20 21:36:18 by llion@student     #+#    #+#              #
-#    Updated: 2024/03/13 19:17:07 by llion@student    ###   ########.fr        #
+#    Created: 2023/07/20 21:36:18 by llion@stude       #+#    #+#              #
+#    Updated: 2024/03/22 13:08:55 by llion@student    ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 export PATH="$HOME/scripts:$PATH"
+export PATH="/goinfre/llion/flutter/bin:$PATH"
+export PATH="$ANDROID_SDK_ROOT/platform-tools:$PATH"
+export SHELL="/bin/zsh"
+export GRADLE_USER_HOME="/goinfre/llion/build_gradle"
+export FLUTTER_BUILD_DIR="/goinfre/llion/build_flutter"
+export ANDROID_SDK_ROOT="/goinfre/llion/"
 
 alias winhome="/home/noil/"
 alias b='buku --suggest'
 alias emacs='emacsclient -c -a "emacs"'
-alias vim="nvim"
+alias vim="flatpak run io.neovim.nvim"
 alias logout="i3-msg quit"
 alias pipes="/usr/local/bin/pipes.sh -s10 -r20000 -f30 -R -t3 -p3"
-alias ls="exa"
 alias la='ls -A'
 alias weather='curl wttr.in'
 alias c='clear'
@@ -27,9 +32,15 @@ alias ll="ls -la"
 alias l="ls -l"
 alias dwarf="alacritty --config-file $HOME/.config/alacritty/dwarffortress.yml -o working-directory=$(pwd) -e dwarffortress; exit"
 alias bare='/usr/bin/git --git-dir=$HOME/.bare.git --work-tree=$HOME'
+#alias flutter="/goinfre/llion/flutter/bin/flutter"
 
 cx() { cd "$@" && ls -la; }
 
+
+# zsh native config
+HISTFILE=~/.config/zsh/histfile
+HISTSIZE=10000
+SAVEHIST=10000
 bindkey -v
 bindkey '^[[A' history-beginning-search-backward
 export KEYTIMEOUT=1
@@ -50,7 +61,7 @@ PROMPT='%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[mag
 #PROMPT='%n in ${vcs_info_msg_0_} '  
 
 # Basic auto/tab complete:
-#autoload -U compinit
+autoload -U compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
 compinit
@@ -60,4 +71,7 @@ _comp_options+=(globdots)		# Include hidden files.
 if [[ "$(tty)" = "/dev/tty1" ]]; then
 	pgrep i3 || startx "home/noil/.config/X11/xinitrc"
 fi
+
+
+export OPENAI_API_KEY="ds"
 
